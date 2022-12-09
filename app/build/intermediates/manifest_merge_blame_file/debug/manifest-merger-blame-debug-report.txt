@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.autumn_finalproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:7:5-78
+12-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:8:5-80
+13-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:8:22-78
+14
+15    <application
+15-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:11:5-33:19
+16        android:allowBackup="true"
+16-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:12:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.7.0] D:\Project\caches\transforms-3\b9e4376e452ce4f1a2bbb1fc4b534124\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:13:9-43
+20        android:label="Autumn"
+20-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:14:9-31
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:15:9-54
+22        android:supportsRtl="true"
+22-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:16:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.AutumnFinalProject" >
+24-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:17:9-56
+25        <activity
+25-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:18:9-20:39
+26            android:name="com.example.autumn_finalproject.chooseLocation"
+26-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:19:13-43
+27            android:exported="false" />
+27-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:20:13-37
+28        <activity
+28-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:21:9-23:39
+29            android:name="com.example.autumn_finalproject.AddAlert"
+29-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:22:13-37
+30            android:exported="false" />
+30-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:23:13-37
+31        <activity
+31-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:24:9-32:20
+32            android:name="com.example.autumn_finalproject.MainActivity"
+32-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:25:13-41
+33            android:exported="true" >
+33-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:26:13-36
+34            <intent-filter>
+34-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:27:13-31:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:28:17-69
+35-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:28:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:30:17-77
+37-->D:\Project\MOOP_Autumn-main\app\src\main\AndroidManifest.xml:30:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <provider
+41-->[androidx.emoji2:emoji2:1.0.0] D:\Project\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+42            android:name="androidx.startup.InitializationProvider"
+42-->[androidx.emoji2:emoji2:1.0.0] D:\Project\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+43            android:authorities="com.example.autumn_finalproject.androidx-startup"
+43-->[androidx.emoji2:emoji2:1.0.0] D:\Project\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+44            android:exported="false" >
+44-->[androidx.emoji2:emoji2:1.0.0] D:\Project\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+45            <meta-data
+45-->[androidx.emoji2:emoji2:1.0.0] D:\Project\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+46-->[androidx.emoji2:emoji2:1.0.0] D:\Project\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+47                android:value="androidx.startup" />
+47-->[androidx.emoji2:emoji2:1.0.0] D:\Project\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+48            <meta-data
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Project\caches\transforms-3\bdba8a1b7f77d959878d5a52670cf96f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Project\caches\transforms-3\bdba8a1b7f77d959878d5a52670cf96f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+50                android:value="androidx.startup" />
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Project\caches\transforms-3\bdba8a1b7f77d959878d5a52670cf96f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+51        </provider>
+52    </application>
+53
+54</manifest>

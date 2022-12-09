@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="..\:/Project/MOOP_Autumn-main/app/src/main/res/layout/activity_add_alert.xml" value="0.22554347826086957" />
+        <entry key="..\:/Project/MOOP_Autumn-main/app/src/main/res/layout/activity_choose_location.xml" value="0.22554347826086957" />
+        <entry key="..\:/Project/MOOP_Autumn-main/app/src/main/res/layout/activity_main.xml" value="0.22554347826086957" />
+        <entry key="..\:/Project/MOOP_Autumn-main/app/src/main/res/layout/alertitem.xml" value="0.22554347826086957" />
+        <entry key="..\:/Users/Immov/AndroidStudioProjects/AutumnFinalProject/app/src/main/res/drawable/alert_bg.xml" value="0.3725" />
+        <entry key="..\:/Users/Immov/AndroidStudioProjects/AutumnFinalProject/app/src/main/res/drawable/alert_view_bg.xml" value="0.3725" />
+        <entry key="..\:/Users/Immov/AndroidStudioProjects/AutumnFinalProject/app/src/main/res/drawable/alert_view_gb.xml" value="0.3725" />
+        <entry key="..\:/Users/Immov/AndroidStudioProjects/AutumnFinalProject/app/src/main/res/drawable/background.xml" value="0.3725" />
+        <entry key="..\:/Users/Immov/AndroidStudioProjects/AutumnFinalProject/app/src/main/res/drawable/background_home.xml" value="0.3365" />
+        <entry key="..\:/Users/Immov/AndroidStudioProjects/AutumnFinalProject/app/src/main/res/drawable/customborder.xml" value="0.3725" />
+        <entry key="..\:/Users/Immov/AndroidStudioProjects/AutumnFinalProject/app/src/main/res/drawable/location.xml" value="0.3725" />
+        <entry key="..\:/Users/Immov/AndroidStudioProjects/AutumnFinalProject/app/src/main/res/drawable/location_btn.xml" value="0.3365" />
+        <entry key="..\:/Users/Immov/AndroidStudioProjects/AutumnFinalProject/app/src/main/res/drawable/weather_widget.xml" value="0.3725" />
+        <entry key="..\:/Users/Immov/AndroidStudioProjects/AutumnFinalProject/app/src/main/res/font/main.xml" value="0.18412162162162163" />
+        <entry key="..\:/Users/Immov/AndroidStudioProjects/AutumnFinalProject/app/src/main/res/layout/activity_add_alert.xml" value="0.24121621621621622" />
+        <entry key="..\:/Users/Immov/AndroidStudioProjects/AutumnFinalProject/app/src/main/res/layout/activity_choose_alert.xml" value="0.24121621621621622" />
+        <entry key="..\:/Users/Immov/AndroidStudioProjects/AutumnFinalProject/app/src/main/res/layout/activity_choose_location.xml" value="0.24121621621621622" />
+        <entry key="..\:/Users/Immov/AndroidStudioProjects/AutumnFinalProject/app/src/main/res/layout/activity_main.xml" value="0.24121621621621622" />
+        <entry key="..\:/Users/Immov/AndroidStudioProjects/AutumnFinalProject/app/src/main/res/layout/alertitem.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.12182971014492754" />
+        <entry key="app/src/main/res/layout/alertitem.xml" value="0.25" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

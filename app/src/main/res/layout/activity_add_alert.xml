@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/inputLocationAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type in Location"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/inputTimeAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputLocationAlert"
+        android:hint="Type in day Ahead (1 / 2 / 3 / etc)"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:minHeight="48dp" />
+
+
+    <Button
+        android:id="@+id/btn_chooseLocAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputTimeAlert"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Choose" />
+
+    <Button
+        android:id="@+id/btn_currentLocAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_chooseLocAlert"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Get Current Location" />
+
+</RelativeLayout>

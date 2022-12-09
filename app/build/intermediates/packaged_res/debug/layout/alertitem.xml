@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:elevation="5dp"
+    app:cardBackgroundColor="#BFD9D9D9"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time\t\t\t\t\t\t: "
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/theTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/timeTextView"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="time"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/cityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timeTextView"
+            android:text="City\t\t\t\t\t\t: "
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/theCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timeTextView"
+            android:layout_toRightOf="@id/cityTextView"
+            android:text="city"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/temperatureTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cityTextView"
+            android:text="Temperature\t\t: "
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/theTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cityTextView"
+            android:layout_toRightOf="@id/temperatureTextView"
+            android:text="temperature"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/weatherTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/temperatureTextView"
+            android:text="Weather\t\t\t\t: "
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/theWeather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/temperatureTextView"
+            android:layout_toRightOf="@id/weatherTextView"
+            android:text="weather"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/windTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/weatherTextView"
+            android:text="Wind\t\t\t\t\t\t: "
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/theWind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/weatherTextView"
+            android:layout_toRightOf="@+id/windTextView"
+            android:text="wind"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/humidityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/windTextView"
+            android:text="Humidity\t\t\t\t: "
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/theHumidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/windTextView"
+            android:layout_toRightOf="@id/humidityTextView"
+            android:text="humidity"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btn_delete"
+            android:layout_width="45dp"
+            android:layout_height="38dp"
+            android:layout_alignParentRight="true"
+            app:srcCompat="@drawable/ic_baseline_indeterminate_check_box_24" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
